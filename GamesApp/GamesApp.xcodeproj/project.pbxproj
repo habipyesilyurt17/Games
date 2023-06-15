@@ -7,23 +7,49 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F50903702A3AECE300500697 /* OnboardingCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F509036F2A3AECE300500697 /* OnboardingCoordinator.swift */; };
+		F50903732A3AEEDD00500697 /* OnboardingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F50903712A3AEEDD00500697 /* OnboardingVC.swift */; };
+		F50903742A3AEEDD00500697 /* OnboardingVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = F50903722A3AEEDD00500697 /* OnboardingVC.xib */; };
+		F50903762A3AEF3E00500697 /* OnboardingVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = F50903752A3AEF3E00500697 /* OnboardingVM.swift */; };
+		F50903782A3B145F00500697 /* LottieManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F50903772A3B145F00500697 /* LottieManager.swift */; };
+		F509037B2A3B14FD00500697 /* games.json in Resources */ = {isa = PBXBuildFile; fileRef = F509037A2A3B14FD00500697 /* games.json */; };
+		F509037E2A3B16BA00500697 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = F509037D2A3B16BA00500697 /* Lottie */; };
 		F58DE99A2A3A05FF00EAF83E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F58DE9992A3A05FF00EAF83E /* AppDelegate.swift */; };
-		F58DE99C2A3A05FF00EAF83E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F58DE99B2A3A05FF00EAF83E /* SceneDelegate.swift */; };
-		F58DE99E2A3A05FF00EAF83E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F58DE99D2A3A05FF00EAF83E /* ViewController.swift */; };
-		F58DE9A12A3A05FF00EAF83E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F58DE99F2A3A05FF00EAF83E /* Main.storyboard */; };
 		F58DE9A32A3A060300EAF83E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F58DE9A22A3A060300EAF83E /* Assets.xcassets */; };
-		F58DE9A62A3A060300EAF83E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F58DE9A42A3A060300EAF83E /* LaunchScreen.storyboard */; };
+		F58DE9B82A3A0ADA00EAF83E /* SplashVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F58DE9B62A3A0ADA00EAF83E /* SplashVC.swift */; };
+		F58DE9B92A3A0ADA00EAF83E /* SplashVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = F58DE9B72A3A0ADA00EAF83E /* SplashVC.xib */; };
+		F58DE9BB2A3A0BC900EAF83E /* ReactiveCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F58DE9BA2A3A0BC900EAF83E /* ReactiveCoordinator.swift */; };
+		F58DE9BD2A3A0C4200EAF83E /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F58DE9BC2A3A0C4200EAF83E /* AppCoordinator.swift */; };
+		F58DE9C02A3A103B00EAF83E /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = F58DE9BF2A3A103B00EAF83E /* RxCocoa */; };
+		F58DE9C22A3A103B00EAF83E /* RxRelay in Frameworks */ = {isa = PBXBuildFile; productRef = F58DE9C12A3A103B00EAF83E /* RxRelay */; };
+		F58DE9C42A3A103B00EAF83E /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = F58DE9C32A3A103B00EAF83E /* RxSwift */; };
+		F58DE9C72A3A110700EAF83E /* Differentiator in Frameworks */ = {isa = PBXBuildFile; productRef = F58DE9C62A3A110700EAF83E /* Differentiator */; };
+		F58DE9C92A3A110700EAF83E /* RxDataSources in Frameworks */ = {isa = PBXBuildFile; productRef = F58DE9C82A3A110700EAF83E /* RxDataSources */; };
+		F58DE9CB2A3A141400EAF83E /* SplashCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F58DE9CA2A3A141400EAF83E /* SplashCoordinator.swift */; };
+		F58DE9CD2A3A182600EAF83E /* BaseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F58DE9CC2A3A182600EAF83E /* BaseVC.swift */; };
+		F58DE9CF2A3A185200EAF83E /* BaseVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = F58DE9CE2A3A185200EAF83E /* BaseVM.swift */; };
+		F58DE9D12A3A18C800EAF83E /* SplashVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = F58DE9D02A3A18C800EAF83E /* SplashVM.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F509036F2A3AECE300500697 /* OnboardingCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingCoordinator.swift; sourceTree = "<group>"; };
+		F50903712A3AEEDD00500697 /* OnboardingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingVC.swift; sourceTree = "<group>"; };
+		F50903722A3AEEDD00500697 /* OnboardingVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OnboardingVC.xib; sourceTree = "<group>"; };
+		F50903752A3AEF3E00500697 /* OnboardingVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingVM.swift; sourceTree = "<group>"; };
+		F50903772A3B145F00500697 /* LottieManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieManager.swift; sourceTree = "<group>"; };
+		F509037A2A3B14FD00500697 /* games.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = games.json; sourceTree = "<group>"; };
 		F58DE9962A3A05FF00EAF83E /* GamesApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GamesApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F58DE9992A3A05FF00EAF83E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F58DE99B2A3A05FF00EAF83E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F58DE99D2A3A05FF00EAF83E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F58DE9A02A3A05FF00EAF83E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F58DE9A22A3A060300EAF83E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		F58DE9A52A3A060300EAF83E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F58DE9A72A3A060300EAF83E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F58DE9B62A3A0ADA00EAF83E /* SplashVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashVC.swift; sourceTree = "<group>"; };
+		F58DE9B72A3A0ADA00EAF83E /* SplashVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SplashVC.xib; sourceTree = "<group>"; };
+		F58DE9BA2A3A0BC900EAF83E /* ReactiveCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReactiveCoordinator.swift; sourceTree = "<group>"; };
+		F58DE9BC2A3A0C4200EAF83E /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		F58DE9CA2A3A141400EAF83E /* SplashCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashCoordinator.swift; sourceTree = "<group>"; };
+		F58DE9CC2A3A182600EAF83E /* BaseVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseVC.swift; sourceTree = "<group>"; };
+		F58DE9CE2A3A185200EAF83E /* BaseVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseVM.swift; sourceTree = "<group>"; };
+		F58DE9D02A3A18C800EAF83E /* SplashVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashVM.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,12 +57,35 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F58DE9C72A3A110700EAF83E /* Differentiator in Frameworks */,
+				F58DE9C42A3A103B00EAF83E /* RxSwift in Frameworks */,
+				F58DE9C22A3A103B00EAF83E /* RxRelay in Frameworks */,
+				F58DE9C92A3A110700EAF83E /* RxDataSources in Frameworks */,
+				F58DE9C02A3A103B00EAF83E /* RxCocoa in Frameworks */,
+				F509037E2A3B16BA00500697 /* Lottie in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F509036E2A3AE85A00500697 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				F50903792A3B14E100500697 /* Lottie */,
+				F58DE9A22A3A060300EAF83E /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		F50903792A3B14E100500697 /* Lottie */ = {
+			isa = PBXGroup;
+			children = (
+				F509037A2A3B14FD00500697 /* games.json */,
+			);
+			path = Lottie;
+			sourceTree = "<group>";
+		};
 		F58DE98D2A3A05FF00EAF83E = {
 			isa = PBXGroup;
 			children = (
@@ -56,15 +105,96 @@
 		F58DE9982A3A05FF00EAF83E /* GamesApp */ = {
 			isa = PBXGroup;
 			children = (
-				F58DE9992A3A05FF00EAF83E /* AppDelegate.swift */,
-				F58DE99B2A3A05FF00EAF83E /* SceneDelegate.swift */,
-				F58DE99D2A3A05FF00EAF83E /* ViewController.swift */,
-				F58DE99F2A3A05FF00EAF83E /* Main.storyboard */,
-				F58DE9A22A3A060300EAF83E /* Assets.xcassets */,
-				F58DE9A42A3A060300EAF83E /* LaunchScreen.storyboard */,
+				F58DE9AD2A3A098C00EAF83E /* App */,
+				F58DE9AE2A3A099600EAF83E /* Base */,
+				F58DE9AF2A3A09A300EAF83E /* Utils */,
+				F58DE9B02A3A09AA00EAF83E /* Extensions */,
+				F58DE9B22A3A09C500EAF83E /* Managers */,
+				F58DE9B12A3A09B900EAF83E /* Models */,
+				F58DE9B32A3A09D100EAF83E /* Screens */,
+				F509036E2A3AE85A00500697 /* Assets */,
 				F58DE9A72A3A060300EAF83E /* Info.plist */,
 			);
 			path = GamesApp;
+			sourceTree = "<group>";
+		};
+		F58DE9AD2A3A098C00EAF83E /* App */ = {
+			isa = PBXGroup;
+			children = (
+				F58DE9992A3A05FF00EAF83E /* AppDelegate.swift */,
+				F58DE9BA2A3A0BC900EAF83E /* ReactiveCoordinator.swift */,
+				F58DE9BC2A3A0C4200EAF83E /* AppCoordinator.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		F58DE9AE2A3A099600EAF83E /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				F58DE9CC2A3A182600EAF83E /* BaseVC.swift */,
+				F58DE9CE2A3A185200EAF83E /* BaseVM.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		F58DE9AF2A3A09A300EAF83E /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		F58DE9B02A3A09AA00EAF83E /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		F58DE9B12A3A09B900EAF83E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F58DE9B22A3A09C500EAF83E /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				F50903772A3B145F00500697 /* LottieManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		F58DE9B32A3A09D100EAF83E /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				F58DE9B42A3A0A7000EAF83E /* Splash */,
+				F58DE9B52A3A0A8300EAF83E /* Onboarding */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		F58DE9B42A3A0A7000EAF83E /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				F58DE9B62A3A0ADA00EAF83E /* SplashVC.swift */,
+				F58DE9B72A3A0ADA00EAF83E /* SplashVC.xib */,
+				F58DE9CA2A3A141400EAF83E /* SplashCoordinator.swift */,
+				F58DE9D02A3A18C800EAF83E /* SplashVM.swift */,
+			);
+			path = Splash;
+			sourceTree = "<group>";
+		};
+		F58DE9B52A3A0A8300EAF83E /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				F509036F2A3AECE300500697 /* OnboardingCoordinator.swift */,
+				F50903712A3AEEDD00500697 /* OnboardingVC.swift */,
+				F50903722A3AEEDD00500697 /* OnboardingVC.xib */,
+				F50903752A3AEF3E00500697 /* OnboardingVM.swift */,
+			);
+			path = Onboarding;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +213,14 @@
 			dependencies = (
 			);
 			name = GamesApp;
+			packageProductDependencies = (
+				F58DE9BF2A3A103B00EAF83E /* RxCocoa */,
+				F58DE9C12A3A103B00EAF83E /* RxRelay */,
+				F58DE9C32A3A103B00EAF83E /* RxSwift */,
+				F58DE9C62A3A110700EAF83E /* Differentiator */,
+				F58DE9C82A3A110700EAF83E /* RxDataSources */,
+				F509037D2A3B16BA00500697 /* Lottie */,
+			);
 			productName = GamesApp;
 			productReference = F58DE9962A3A05FF00EAF83E /* GamesApp.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +249,11 @@
 				Base,
 			);
 			mainGroup = F58DE98D2A3A05FF00EAF83E;
+			packageReferences = (
+				F58DE9BE2A3A103B00EAF83E /* XCRemoteSwiftPackageReference "RxSwift" */,
+				F58DE9C52A3A110700EAF83E /* XCRemoteSwiftPackageReference "RxDataSources" */,
+				F509037C2A3B16BA00500697 /* XCRemoteSwiftPackageReference "lottie-ios" */,
+			);
 			productRefGroup = F58DE9972A3A05FF00EAF83E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -125,9 +268,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F58DE9A62A3A060300EAF83E /* LaunchScreen.storyboard in Resources */,
 				F58DE9A32A3A060300EAF83E /* Assets.xcassets in Resources */,
-				F58DE9A12A3A05FF00EAF83E /* Main.storyboard in Resources */,
+				F58DE9B92A3A0ADA00EAF83E /* SplashVC.xib in Resources */,
+				F50903742A3AEEDD00500697 /* OnboardingVC.xib in Resources */,
+				F509037B2A3B14FD00500697 /* games.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,32 +282,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F58DE99E2A3A05FF00EAF83E /* ViewController.swift in Sources */,
 				F58DE99A2A3A05FF00EAF83E /* AppDelegate.swift in Sources */,
-				F58DE99C2A3A05FF00EAF83E /* SceneDelegate.swift in Sources */,
+				F58DE9BD2A3A0C4200EAF83E /* AppCoordinator.swift in Sources */,
+				F50903762A3AEF3E00500697 /* OnboardingVM.swift in Sources */,
+				F58DE9CB2A3A141400EAF83E /* SplashCoordinator.swift in Sources */,
+				F58DE9B82A3A0ADA00EAF83E /* SplashVC.swift in Sources */,
+				F58DE9CF2A3A185200EAF83E /* BaseVM.swift in Sources */,
+				F50903732A3AEEDD00500697 /* OnboardingVC.swift in Sources */,
+				F58DE9CD2A3A182600EAF83E /* BaseVC.swift in Sources */,
+				F58DE9BB2A3A0BC900EAF83E /* ReactiveCoordinator.swift in Sources */,
+				F58DE9D12A3A18C800EAF83E /* SplashVM.swift in Sources */,
+				F50903782A3B145F00500697 /* LottieManager.swift in Sources */,
+				F50903702A3AECE300500697 /* OnboardingCoordinator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		F58DE99F2A3A05FF00EAF83E /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F58DE9A02A3A05FF00EAF83E /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		F58DE9A42A3A060300EAF83E /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F58DE9A52A3A060300EAF83E /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		F58DE9A82A3A060300EAF83E /* Debug */ = {
@@ -292,7 +426,6 @@
 				INFOPLIST_FILE = GamesApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -320,7 +453,6 @@
 				INFOPLIST_FILE = GamesApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -358,6 +490,66 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F509037C2A3B16BA00500697 /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.0;
+			};
+		};
+		F58DE9BE2A3A103B00EAF83E /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReactiveX/RxSwift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.0.0;
+			};
+		};
+		F58DE9C52A3A110700EAF83E /* XCRemoteSwiftPackageReference "RxDataSources" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/RxSwiftCommunity/RxDataSources";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F509037D2A3B16BA00500697 /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F509037C2A3B16BA00500697 /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+		F58DE9BF2A3A103B00EAF83E /* RxCocoa */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F58DE9BE2A3A103B00EAF83E /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxCocoa;
+		};
+		F58DE9C12A3A103B00EAF83E /* RxRelay */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F58DE9BE2A3A103B00EAF83E /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxRelay;
+		};
+		F58DE9C32A3A103B00EAF83E /* RxSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F58DE9BE2A3A103B00EAF83E /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxSwift;
+		};
+		F58DE9C62A3A110700EAF83E /* Differentiator */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F58DE9C52A3A110700EAF83E /* XCRemoteSwiftPackageReference "RxDataSources" */;
+			productName = Differentiator;
+		};
+		F58DE9C82A3A110700EAF83E /* RxDataSources */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F58DE9C52A3A110700EAF83E /* XCRemoteSwiftPackageReference "RxDataSources" */;
+			productName = RxDataSources;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = F58DE98E2A3A05FF00EAF83E /* Project object */;
 }
