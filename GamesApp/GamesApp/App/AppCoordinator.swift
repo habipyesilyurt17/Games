@@ -18,6 +18,7 @@ class AppCoordinator: ReactiveCoordinator<Void> {
     override func start() -> Observable<Void> {
         let splashVC = SplashVC()
         let navigationController = UINavigationController(rootViewController: splashVC)
+        navigationController.setNavigationBarHidden(true, animated: true)
         let splashCoordinator = SplashCoordinator(rootViewController: splashVC)
         window.rootViewController = navigationController
         window.makeKeyAndVisible()

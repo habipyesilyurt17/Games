@@ -16,6 +16,7 @@ class LottieManager {
     static let shared = LottieManager()
     
     private var animationView: LottieAnimationView!
+    
     private init() {}
     
     func playLottie(view: UIView, lottieName: String) {

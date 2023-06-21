@@ -9,11 +9,15 @@
 /* Begin PBXBuildFile section */
 		F50903702A3AECE300500697 /* OnboardingCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F509036F2A3AECE300500697 /* OnboardingCoordinator.swift */; };
 		F50903732A3AEEDD00500697 /* OnboardingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F50903712A3AEEDD00500697 /* OnboardingVC.swift */; };
-		F50903742A3AEEDD00500697 /* OnboardingVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = F50903722A3AEEDD00500697 /* OnboardingVC.xib */; };
 		F50903762A3AEF3E00500697 /* OnboardingVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = F50903752A3AEF3E00500697 /* OnboardingVM.swift */; };
 		F50903782A3B145F00500697 /* LottieManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F50903772A3B145F00500697 /* LottieManager.swift */; };
 		F509037B2A3B14FD00500697 /* games.json in Resources */ = {isa = PBXBuildFile; fileRef = F509037A2A3B14FD00500697 /* games.json */; };
 		F509037E2A3B16BA00500697 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = F509037D2A3B16BA00500697 /* Lottie */; };
+		F50903802A3B377100500697 /* LaunchOnboardingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F509037F2A3B377100500697 /* LaunchOnboardingManager.swift */; };
+		F50903822A3B3F4600500697 /* OnboardingVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = F50903722A3AEEDD00500697 /* OnboardingVC.xib */; };
+		F56F97782A42BD9F0092EDF7 /* TabBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56F97762A42BD9F0092EDF7 /* TabBarVC.swift */; };
+		F56F97792A42BD9F0092EDF7 /* TabBarVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = F56F97772A42BD9F0092EDF7 /* TabBarVC.xib */; };
+		F56F977B2A42BDCF0092EDF7 /* TabBarCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56F977A2A42BDCE0092EDF7 /* TabBarCoordinator.swift */; };
 		F58DE99A2A3A05FF00EAF83E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F58DE9992A3A05FF00EAF83E /* AppDelegate.swift */; };
 		F58DE9A32A3A060300EAF83E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F58DE9A22A3A060300EAF83E /* Assets.xcassets */; };
 		F58DE9B82A3A0ADA00EAF83E /* SplashVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F58DE9B62A3A0ADA00EAF83E /* SplashVC.swift */; };
@@ -38,6 +42,10 @@
 		F50903752A3AEF3E00500697 /* OnboardingVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingVM.swift; sourceTree = "<group>"; };
 		F50903772A3B145F00500697 /* LottieManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieManager.swift; sourceTree = "<group>"; };
 		F509037A2A3B14FD00500697 /* games.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = games.json; sourceTree = "<group>"; };
+		F509037F2A3B377100500697 /* LaunchOnboardingManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchOnboardingManager.swift; sourceTree = "<group>"; };
+		F56F97762A42BD9F0092EDF7 /* TabBarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarVC.swift; sourceTree = "<group>"; };
+		F56F97772A42BD9F0092EDF7 /* TabBarVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TabBarVC.xib; sourceTree = "<group>"; };
+		F56F977A2A42BDCE0092EDF7 /* TabBarCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarCoordinator.swift; sourceTree = "<group>"; };
 		F58DE9962A3A05FF00EAF83E /* GamesApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GamesApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F58DE9992A3A05FF00EAF83E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F58DE9A22A3A060300EAF83E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -84,6 +92,23 @@
 				F509037A2A3B14FD00500697 /* games.json */,
 			);
 			path = Lottie;
+			sourceTree = "<group>";
+		};
+		F50903812A3B3AB300500697 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		F56F97712A42BBCC0092EDF7 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				F56F97762A42BD9F0092EDF7 /* TabBarVC.swift */,
+				F56F97772A42BD9F0092EDF7 /* TabBarVC.xib */,
+				F56F977A2A42BDCE0092EDF7 /* TabBarCoordinator.swift */,
+			);
+			path = TabBar;
 			sourceTree = "<group>";
 		};
 		F58DE98D2A3A05FF00EAF83E = {
@@ -162,6 +187,7 @@
 			isa = PBXGroup;
 			children = (
 				F50903772A3B145F00500697 /* LottieManager.swift */,
+				F509037F2A3B377100500697 /* LaunchOnboardingManager.swift */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -171,6 +197,7 @@
 			children = (
 				F58DE9B42A3A0A7000EAF83E /* Splash */,
 				F58DE9B52A3A0A8300EAF83E /* Onboarding */,
+				F56F97712A42BBCC0092EDF7 /* TabBar */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -189,6 +216,7 @@
 		F58DE9B52A3A0A8300EAF83E /* Onboarding */ = {
 			isa = PBXGroup;
 			children = (
+				F50903812A3B3AB300500697 /* Cells */,
 				F509036F2A3AECE300500697 /* OnboardingCoordinator.swift */,
 				F50903712A3AEEDD00500697 /* OnboardingVC.swift */,
 				F50903722A3AEEDD00500697 /* OnboardingVC.xib */,
@@ -269,8 +297,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				F58DE9A32A3A060300EAF83E /* Assets.xcassets in Resources */,
+				F50903822A3B3F4600500697 /* OnboardingVC.xib in Resources */,
+				F56F97792A42BD9F0092EDF7 /* TabBarVC.xib in Resources */,
 				F58DE9B92A3A0ADA00EAF83E /* SplashVC.xib in Resources */,
-				F50903742A3AEEDD00500697 /* OnboardingVC.xib in Resources */,
 				F509037B2A3B14FD00500697 /* games.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -282,12 +311,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F56F97782A42BD9F0092EDF7 /* TabBarVC.swift in Sources */,
 				F58DE99A2A3A05FF00EAF83E /* AppDelegate.swift in Sources */,
+				F50903802A3B377100500697 /* LaunchOnboardingManager.swift in Sources */,
 				F58DE9BD2A3A0C4200EAF83E /* AppCoordinator.swift in Sources */,
 				F50903762A3AEF3E00500697 /* OnboardingVM.swift in Sources */,
 				F58DE9CB2A3A141400EAF83E /* SplashCoordinator.swift in Sources */,
 				F58DE9B82A3A0ADA00EAF83E /* SplashVC.swift in Sources */,
 				F58DE9CF2A3A185200EAF83E /* BaseVM.swift in Sources */,
+				F56F977B2A42BDCF0092EDF7 /* TabBarCoordinator.swift in Sources */,
 				F50903732A3AEEDD00500697 /* OnboardingVC.swift in Sources */,
 				F58DE9CD2A3A182600EAF83E /* BaseVC.swift in Sources */,
 				F58DE9BB2A3A0BC900EAF83E /* ReactiveCoordinator.swift in Sources */,

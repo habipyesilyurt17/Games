@@ -10,4 +10,6 @@ import RxSwift
 
 
 class SplashVM: BaseVM {
+    let goToOnboardingPage = PublishSubject<Void>()
+    let goToHomePage = PublishSubject<Void>()
 }
