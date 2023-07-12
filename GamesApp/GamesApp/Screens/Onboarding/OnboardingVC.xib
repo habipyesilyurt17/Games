@@ -22,10 +22,10 @@
             <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="AQG-Ux-ero">
+                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="AQG-Ux-ero">
                     <rect key="frame" x="0.0" y="59" width="393" height="639"/>
                     <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                    <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="6c4-au-4dH">
+                    <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="6c4-au-4dH">
                         <size key="itemSize" width="128" height="128"/>
                         <size key="headerReferenceSize" width="0.0" height="0.0"/>
                         <size key="footerReferenceSize" width="0.0" height="0.0"/>
@@ -33,13 +33,13 @@
                     </collectionViewFlowLayout>
                 </collectionView>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cUv-Za-RMc">
-                    <rect key="frame" x="0.0" y="698" width="393" height="154"/>
+                    <rect key="frame" x="0.0" y="698" width="393" height="120"/>
                     <subviews>
                         <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="DMl-BO-L8Y">
-                            <rect key="frame" x="120" y="16" width="153" height="80"/>
+                            <rect key="frame" x="120" y="8" width="153" height="54"/>
                         </pageControl>
-                        <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" translatesAutoresizingMaskIntoConstraints="NO" id="4RO-8T-NGO">
-                            <rect key="frame" x="0.0" y="104" width="393" height="50"/>
+                        <stackView opaque="NO" contentMode="scaleToFill" distribution="equalCentering" translatesAutoresizingMaskIntoConstraints="NO" id="4RO-8T-NGO">
+                            <rect key="frame" x="16" y="70" width="361" height="50"/>
                             <subviews>
                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7s8-Tv-oVU">
                                     <rect key="frame" x="0.0" y="0.0" width="150" height="50"/>
@@ -51,7 +51,7 @@
                                     <buttonConfiguration key="configuration" style="plain" title="_"/>
                                 </button>
                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f4j-rg-Wro">
-                                    <rect key="frame" x="243" y="0.0" width="150" height="50"/>
+                                    <rect key="frame" x="211" y="0.0" width="150" height="50"/>
                                     <constraints>
                                         <constraint firstAttribute="height" constant="50" id="SjX-Cf-q88"/>
                                         <constraint firstAttribute="width" constant="150" id="fm6-OW-1MS"/>
@@ -67,10 +67,10 @@
                         <constraint firstAttribute="bottom" secondItem="4RO-8T-NGO" secondAttribute="bottom" id="1nK-VN-New"/>
                         <constraint firstAttribute="trailing" secondItem="DMl-BO-L8Y" secondAttribute="trailing" constant="120" id="CjG-dl-VEZ"/>
                         <constraint firstItem="4RO-8T-NGO" firstAttribute="top" secondItem="DMl-BO-L8Y" secondAttribute="bottom" constant="8" id="Ogy-GS-iyU"/>
-                        <constraint firstItem="DMl-BO-L8Y" firstAttribute="top" secondItem="cUv-Za-RMc" secondAttribute="top" constant="16" id="SB7-8Q-VD7"/>
+                        <constraint firstItem="DMl-BO-L8Y" firstAttribute="top" secondItem="cUv-Za-RMc" secondAttribute="top" constant="8" id="SB7-8Q-VD7"/>
                         <constraint firstItem="DMl-BO-L8Y" firstAttribute="leading" secondItem="cUv-Za-RMc" secondAttribute="leading" constant="120" id="YqK-LE-6kn"/>
-                        <constraint firstAttribute="trailing" secondItem="4RO-8T-NGO" secondAttribute="trailing" id="f0S-Gy-1Z4"/>
-                        <constraint firstItem="4RO-8T-NGO" firstAttribute="leading" secondItem="cUv-Za-RMc" secondAttribute="leading" id="scE-KF-J3n"/>
+                        <constraint firstAttribute="trailing" secondItem="4RO-8T-NGO" secondAttribute="trailing" constant="16" id="f0S-Gy-1Z4"/>
+                        <constraint firstItem="4RO-8T-NGO" firstAttribute="leading" secondItem="cUv-Za-RMc" secondAttribute="leading" constant="16" id="scE-KF-J3n"/>
                     </constraints>
                 </view>
             </subviews>
@@ -79,7 +79,7 @@
             <constraints>
                 <constraint firstItem="AQG-Ux-ero" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="4W2-Wb-X5T"/>
                 <constraint firstItem="AQG-Ux-ero" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="JIN-EX-iGh"/>
-                <constraint firstAttribute="bottom" secondItem="cUv-Za-RMc" secondAttribute="bottom" id="XHS-HW-ILi"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="cUv-Za-RMc" secondAttribute="bottom" id="M9k-Qu-YvB"/>
                 <constraint firstItem="cUv-Za-RMc" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="hF8-RY-xTA"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="AQG-Ux-ero" secondAttribute="trailing" id="jaa-Mr-4uq"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="cUv-Za-RMc" secondAttribute="trailing" id="lfI-xj-KTu"/>

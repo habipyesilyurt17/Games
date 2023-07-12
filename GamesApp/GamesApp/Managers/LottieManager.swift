@@ -10,6 +10,10 @@ import Lottie
 
 enum LottieNames: String {
     case games = "games"
+    case gamesOnboarding = "gamesOnboarding"
+    case favorites = "favorites"
+    case notes = "notes"
+    case languages = "languages"
 }
 
 class LottieManager {

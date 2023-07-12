@@ -15,9 +15,16 @@
 		F509037E2A3B16BA00500697 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = F509037D2A3B16BA00500697 /* Lottie */; };
 		F50903802A3B377100500697 /* LaunchOnboardingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F509037F2A3B377100500697 /* LaunchOnboardingManager.swift */; };
 		F50903822A3B3F4600500697 /* OnboardingVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = F50903722A3AEEDD00500697 /* OnboardingVC.xib */; };
+		F5672F292A5ED0A900B66429 /* OnboardingCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5672F272A5ED0A900B66429 /* OnboardingCollectionViewCell.swift */; };
+		F5672F2A2A5ED0A900B66429 /* OnboardingCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5672F282A5ED0A900B66429 /* OnboardingCollectionViewCell.xib */; };
+		F56BD0762A5EF81A0043B050 /* languages.json in Resources */ = {isa = PBXBuildFile; fileRef = F56BD0752A5EF81A0043B050 /* languages.json */; };
 		F56F97782A42BD9F0092EDF7 /* TabBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56F97762A42BD9F0092EDF7 /* TabBarVC.swift */; };
 		F56F97792A42BD9F0092EDF7 /* TabBarVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = F56F97772A42BD9F0092EDF7 /* TabBarVC.xib */; };
 		F56F977B2A42BDCF0092EDF7 /* TabBarCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56F977A2A42BDCE0092EDF7 /* TabBarCoordinator.swift */; };
+		F56F97812A42E9E60092EDF7 /* OnboardingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56F97802A42E9E60092EDF7 /* OnboardingModel.swift */; };
+		F56F97832A42F10A0092EDF7 /* gamesOnboarding.json in Resources */ = {isa = PBXBuildFile; fileRef = F56F97822A42F10A0092EDF7 /* gamesOnboarding.json */; };
+		F56F97852A42F1180092EDF7 /* favorites.json in Resources */ = {isa = PBXBuildFile; fileRef = F56F97842A42F1170092EDF7 /* favorites.json */; };
+		F56F97872A42F1220092EDF7 /* notes.json in Resources */ = {isa = PBXBuildFile; fileRef = F56F97862A42F1220092EDF7 /* notes.json */; };
 		F58DE99A2A3A05FF00EAF83E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F58DE9992A3A05FF00EAF83E /* AppDelegate.swift */; };
 		F58DE9A32A3A060300EAF83E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F58DE9A22A3A060300EAF83E /* Assets.xcassets */; };
 		F58DE9B82A3A0ADA00EAF83E /* SplashVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F58DE9B62A3A0ADA00EAF83E /* SplashVC.swift */; };
@@ -43,9 +50,16 @@
 		F50903772A3B145F00500697 /* LottieManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieManager.swift; sourceTree = "<group>"; };
 		F509037A2A3B14FD00500697 /* games.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = games.json; sourceTree = "<group>"; };
 		F509037F2A3B377100500697 /* LaunchOnboardingManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchOnboardingManager.swift; sourceTree = "<group>"; };
+		F5672F272A5ED0A900B66429 /* OnboardingCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingCollectionViewCell.swift; sourceTree = "<group>"; };
+		F5672F282A5ED0A900B66429 /* OnboardingCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OnboardingCollectionViewCell.xib; sourceTree = "<group>"; };
+		F56BD0752A5EF81A0043B050 /* languages.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = languages.json; sourceTree = "<group>"; };
 		F56F97762A42BD9F0092EDF7 /* TabBarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarVC.swift; sourceTree = "<group>"; };
 		F56F97772A42BD9F0092EDF7 /* TabBarVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TabBarVC.xib; sourceTree = "<group>"; };
 		F56F977A2A42BDCE0092EDF7 /* TabBarCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarCoordinator.swift; sourceTree = "<group>"; };
+		F56F97802A42E9E60092EDF7 /* OnboardingModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingModel.swift; sourceTree = "<group>"; };
+		F56F97822A42F10A0092EDF7 /* gamesOnboarding.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = gamesOnboarding.json; sourceTree = "<group>"; };
+		F56F97842A42F1170092EDF7 /* favorites.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = favorites.json; sourceTree = "<group>"; };
+		F56F97862A42F1220092EDF7 /* notes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = notes.json; sourceTree = "<group>"; };
 		F58DE9962A3A05FF00EAF83E /* GamesApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GamesApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F58DE9992A3A05FF00EAF83E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F58DE9A22A3A060300EAF83E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -89,7 +103,11 @@
 		F50903792A3B14E100500697 /* Lottie */ = {
 			isa = PBXGroup;
 			children = (
+				F56BD0752A5EF81A0043B050 /* languages.json */,
 				F509037A2A3B14FD00500697 /* games.json */,
+				F56F97822A42F10A0092EDF7 /* gamesOnboarding.json */,
+				F56F97842A42F1170092EDF7 /* favorites.json */,
+				F56F97862A42F1220092EDF7 /* notes.json */,
 			);
 			path = Lottie;
 			sourceTree = "<group>";
@@ -97,6 +115,8 @@
 		F50903812A3B3AB300500697 /* Cells */ = {
 			isa = PBXGroup;
 			children = (
+				F5672F272A5ED0A900B66429 /* OnboardingCollectionViewCell.swift */,
+				F5672F282A5ED0A900B66429 /* OnboardingCollectionViewCell.xib */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -179,6 +199,7 @@
 		F58DE9B12A3A09B900EAF83E /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				F56F97802A42E9E60092EDF7 /* OnboardingModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -296,11 +317,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5672F2A2A5ED0A900B66429 /* OnboardingCollectionViewCell.xib in Resources */,
+				F56BD0762A5EF81A0043B050 /* languages.json in Resources */,
 				F58DE9A32A3A060300EAF83E /* Assets.xcassets in Resources */,
+				F56F97852A42F1180092EDF7 /* favorites.json in Resources */,
 				F50903822A3B3F4600500697 /* OnboardingVC.xib in Resources */,
 				F56F97792A42BD9F0092EDF7 /* TabBarVC.xib in Resources */,
+				F56F97872A42F1220092EDF7 /* notes.json in Resources */,
 				F58DE9B92A3A0ADA00EAF83E /* SplashVC.xib in Resources */,
 				F509037B2A3B14FD00500697 /* games.json in Resources */,
+				F56F97832A42F10A0092EDF7 /* gamesOnboarding.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -325,7 +351,9 @@
 				F58DE9BB2A3A0BC900EAF83E /* ReactiveCoordinator.swift in Sources */,
 				F58DE9D12A3A18C800EAF83E /* SplashVM.swift in Sources */,
 				F50903782A3B145F00500697 /* LottieManager.swift in Sources */,
+				F56F97812A42E9E60092EDF7 /* OnboardingModel.swift in Sources */,
 				F50903702A3AECE300500697 /* OnboardingCoordinator.swift in Sources */,
+				F5672F292A5ED0A900B66429 /* OnboardingCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

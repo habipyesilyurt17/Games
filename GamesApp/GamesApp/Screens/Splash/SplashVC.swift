@@ -29,7 +29,7 @@ class SplashVC: BaseVC<SplashVM> {
     
     override func viewDidLayoutSubviews() {
         super.viewDidLayoutSubviews()
-        if LaunchOnboardingManager.shared.isNewUser() {
+        if !LaunchOnboardingManager.shared.isNewUser() {
             DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
                 self.viewModel?.goToOnboardingPage.onNext(())
             }
